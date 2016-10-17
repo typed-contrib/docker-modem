@@ -1,6 +1,6 @@
 {
   "name": "typed-docker-modem",
-  "version": "2.3.1",
+  "version": "0.3.1",
   "description": "Type definitions for https://github.com/apocas/docker-modem",
   "author": "typed-contrib",
   "license": "MIT",
