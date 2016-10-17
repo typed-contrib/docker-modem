@@ -1,0 +1,40 @@
+{
+  "name": "typed-docker-modem",
+  "version": "2.3.1",
+  "description": "Type definitions for https://github.com/apocas/docker-modem",
+  "author": "typed-contrib",
+  "license": "MIT",
+  "homepage": "https://github.com/typed-contrib/docker-modem#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typed-contrib/docker-modem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typed-contrib/docker-modem/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "typings install && cd test && typings install",
+    "test": "tsc -p test"
+  },
+  "keywords": [
+    "typings",
+    "definitions",
+    "typescript",
+    "docker",
+    "remote",
+    "api",
+    "container",
+    "service",
+    "volume",
+    "typed-contrib",
+    "typed",
+    "tsd"
+  ],
+  "devDependencies": {
+    "typings": "^1.0.4",
+    "typescript": "^2.0.3"
+  }
+}
