@@ -46,9 +46,9 @@ class Modem implements Modem.SocketOptions, Modem.HostOptions {
      * 
      * @param stream        Input stream to follow.
      * @param onFinished    Callback which will be called when stream ends.
-     * @param onProgress    Callback which will be called multiple times to report job progress.
+     * @param [onProgress]  Callback which will be called multiple times to report job progress.
      */
-    public followProgress<T>(stream: NodeJS.ReadableStream, onFinished: Modem.Callback<T>, onProgress: (evt: any) => void);
+    public followProgress<T>(stream: NodeJS.ReadableStream, onFinished: Modem.Callback<T>, onProgress?: (evt: any) => void);
 
     /**
      * Builds Query String parameters from Object.
