@@ -46,9 +46,7 @@ Some resources to help writing Typescript type definitions:
 
 ## Tests
 
-This type definitions are tested using source `docker-modem` `samples` and `services` tests.
- * [Samples](https://github.com/apocas/docker-modem/tree/master/examples/samples)
- * [Services](https://github.com/apocas/docker-modem/tree/master/test/services)
+This type definitions are tested using source `docker-modem` [tests](https://github.com/apocas/docker-modem/tree/master/test/).
 
 ## License
 
